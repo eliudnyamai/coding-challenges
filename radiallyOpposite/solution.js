@@ -8,6 +8,6 @@ function circleOfNumbers(n, firstNumber) {
   return radiallyOpposite;
 }
 // circleOfNumbers(10,5)==0
-// circleOfNumbers(10, 2) == 8
-// circleOfNumbers(10, 3) == 7;
-// circleOfNumbers(10, 8) == 2;
+// circleOfNumbers(10, 2) == 7
+// circleOfNumbers(10, 3) == 8;
+// circleOfNumbers(10, 8) == 3;
