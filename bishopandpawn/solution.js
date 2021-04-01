@@ -13,8 +13,8 @@ function bishopAndPawn(bishop, pawn) {
   letters["h"] = 7;
   var bishopPosition = [letters[bishop[0]], bishop[1] - 1];
   var pawnPosition = [letters[pawn[0]], pawn[1] - 1];
-  //if the absolute diferrence between the x  cordinates bishop and pawn 
-  //and their Y cordinates are also equal then bishop can validly capture pawn
+  //if the absolute diferrence between the x  cordinates of bishop and pawn is equal
+  //and their Y cordinates' absolute diffrence is also equal then bishop can validly capture pawn
   //that the pattern which should be discovered
   if (
     Math.abs(bishopPosition[0] - pawnPosition[0]) ==
